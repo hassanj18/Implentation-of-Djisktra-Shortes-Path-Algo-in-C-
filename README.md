@@ -79,13 +79,14 @@ To use this implementation, ensure you have a properly formatted input file cont
 To compile and run the program, follow these steps:
 
 1. Ensure you have a C++ compiler installed (like `g++`).
-2. Compile the code:
+2. You can also change input by adding or removing nodes and weights in input.txt file
+3. Compile the code:
    ```bash
-   g++ -o dijkstra dijkstra.cpp
+   g++ -o source source1.cpp
    ```
-3. Run the executable:
+4. Run the executable:
    ```bash
-   ./dijkstra
+   ./source
    ```
 
 ## Contributing
